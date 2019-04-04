@@ -1,0 +1,15 @@
+<hr>
+<h4> 小厨房 </h4>
+<div>
+  <span> 点菜: </span>
+  <input type="text" [(ngModel)]="inPut">
+  <button class="btn btn-light" (click)="search()" style="margin-right: 10px"> Search </button>
+  <button class="btn btn-light" (click)="reSet()"> Reset </button>
+ </div>
+
+<!--<div class="section1"> </div>-->
+
+<div *ngIf="isSearch" class="informBoxBoarder"> {{inPut}} </div>
+<div *ngIf="isReset" class="informBoxBoarder"> {{flag}} </div>
+<!--<button class="btn btn-light" (click)="search()" style="margin-right: 10px"> Search </button>-->
+<!--<button class="btn btn-light" (click)="reSet()"><input type="text"> Reset </button>-->

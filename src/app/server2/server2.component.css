@@ -1,0 +1,11 @@
+.section1 {
+  height: 30px;
+  width: 30%;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin-top: 10px;
+  color: darkgray;
+  text-align: left;
+}
